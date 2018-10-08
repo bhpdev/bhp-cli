@@ -1,0 +1,7 @@
+System.DllNotFoundException
+Unable to load DLL 'libleveldb': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at Bhp.IO.Data.LevelDB.Native.leveldb_options_create()
+   at Bhp.Persistence.LevelDB.LevelDBStore..ctor(String path)
+   at Bhp.Shell.MainService.OnStart(String[] args)
+   at Bhp.Services.ConsoleServiceBase.Run(String[] args)
+   at Bhp.Program.Main(String[] args)
